@@ -1,1 +1,79 @@
+# Python Start
+//My first python program:
+print("Hi!")
+
+//Excuted line by line from the top
+//variables
+
+price = 10
+price = 20
+rating = 4.9              //Float
+name = 'Mosh'             //String
+is_published = True       //Boolean
+print(price)              //Output is 20
+
+//recieving input
+
+name = input('What is your name? ')                           //input is Adham
+favorite_color = input('What is your favorite color? ')       //input is red
+print(name + ' likes ' + favorite_color)                      //output is Adham likes red
+
+
+birth_year = input('Birth year: ')      //input is 2003
+print(type(birth_year))                 //type is <class 'str'>
+age = 2022 - int(birth_year)            
+print(type(age))                        //type is <class 'int'>
+print(age)                              //output is 19
+
+
+weight_lbs = input('Weight (lbs): ')    //input is 160
+weight_kg = int(weight_lbs) * 0.45
+print(weight_kg)                        //output is 72.0
+
+//strings
+//triple, double, and single quotes 
+
+course ="Python's for beginners"
+print(course)                           //output is Python's for beginners
+
+
+course ='Python for "beginners"'
+print(course)                           //output is Python for "beginners"
+
+
+course = '''
+Hi John,
+
+Here is pur first email to you.
+
+Thank you,
+The family
+
+'''
+print(course)                            //output is Hi John,
+
+                                                     Here is pur first email to you.
+
+                                                     Thank you,
+                                                     The family
+
+
+course = 'Python for beginners'
+print(course[0])                          //output is P
+
+course = 'Python for beginners'
+print(course[-1])                         //output is s
+
+course = 'Python for beginners'
+print(course[0:3])                        //output is Pyt
+
+course = 'Python for beginners'
+print(course[:])                          //output is Python for beginners
+
+course = 'Python for beginners'
+print(course[1:])                         //output is ython for beginners
+
+name = 'Jennifer'
+print(name[1:-1])                         //output is ennife
+
 

@@ -76,4 +76,35 @@ print(course[1:])                         //output is ython for beginners
 name = 'Jennifer'
 print(name[1:-1])                         //output is ennife
 
+//formatted strings
 
+first = 'John'
+last = 'Smith'
+message = first + '[' + last + '] is a coder'
+msg = f'{first} [{last}] '
+print(message)                             //output is John [Smith] is a coder
+print(msg)                                 //output is John [Smith] is a coder
+
+//string methods
+
+course = 'Python for Beginners'
+print (len(course))                 //output is 20 (number of covered spaces)
+print(course.upper())               //output is PYTHON FOR BEGINNERS
+print(course.lower())               //output is python for beginners
+print(course)                       //output is Python for Beginners
+print(course.find('P'))             //output is 0
+print(course.find('o'))             //output is 4
+print(course.find('O'))             //output is -1 (case sensitive) 
+print(course.find('Beginners'))     //output is 11 (start at index 11)
+print(course.replace('Beginners', 'Absolute Beginners'))      //output is Python for Absolute Beginners
+print('Python' in course)           //output is False
+
+len()
+course.upper()
+course.lower()
+course.title()
+course.find()
+course.replace()
+'....' in course
+
+//arithmetic operations

@@ -1,0 +1,129 @@
+#C
+//First code I write
+
+#include <stdio.h>
+int main(){
+    printf("I like pizza!");               //output is I like pizza!
+    printf("It's really good!\n");         //output is It's really good!
+    return 0;
+}    
+
+
+//variables
+
+#include <stdio.h>
+int main(){
+    int x;          //declaration
+    x = 123;        //initialization
+    int y = 321;    //declaration + initialization
+    
+    int age = 21;          //integer
+    float gpa = 2.05;      //floating point number
+    char grade = 'C';      //single character
+    char name[] = "Bro";   //array of characters
+    
+    printf("Hello %s\n", name);                     //output is Hello Bro
+    printf("You are %d years old", age);            //output is You are 21 years old
+    printf("Your average grade is %c\n", grade);    //output is Your average grade is C
+    printf("Your gpa is %f\n", gpa);                //output is Your gpa is 2.050000
+    return 0;
+}    
+
+
+//data types
+
+#include <stdio.h>
+#include <stdbool.h>
+int main(){
+    char a = 'C';                    // single character    %c
+    char b[] = "Bro";                // array of characters %s
+    
+    float c = 3.141592;              // 4 bytes (32 bits of precision) 6-7 digits %f
+    double d = 3.141592653589793;    // 8 bytes (64 bits of precision) 15-16 digits %lf
+    
+    bool e = true;                   // 1 byte (true or false) %d 1--true / 0---false
+    
+    char f = 100;                    // 1 byte (-128 to +127) %d or %c / if used as a character use the asci table
+    unsigned char g = 255;           // 1 byte (0 to +255) %d or %c
+    
+    short int h = 32767;             // 2 bytes (-32,768 to +32,767) %d
+    unsigned short int i = 65535;    // 2 bytes (0 to +65,535) %d
+    
+    int j = 2147483647;              // 4 bytes (-2,147,483,648 to +2,147,483,647) %d
+    unsigned int k = 4294967295L;    // 4 bytes (0 to +4,294,967,295) %u
+    
+    long int 1 = 9223372036854775807;                  // 8 bytes (-9 quintillion to +9 quintilion) %lld
+    unsigned long long int m = 18446744073709551615U;  // 8 bytes (0 to +18 quintillon) %llu
+    
+    return 0;
+}    
+
+
+//format specifiers
+
+// %c = character
+// %s = string (array of characters)
+// %f = float
+// %lf = double
+// %d = integer
+// %.1 = decimal precision
+// %1 = minimum field width
+// %- = left align
+
+
+//constants
+
+#include <stdio.h>
+int main(){
+    
+    const float PI = 3.14159;
+    printf("%f", PI);
+    
+    return 0;
+}    
+
+
+//arithmetic operators
+
+// + (addition)
+// - (subtraction)
+// * (multiplication)
+// / (division)
+// % (modulus)
+// ++ (increment)
+// -- (decrement)
+
+
+//augmented assignments operators
+
+// x+=2;
+// x-=3
+// x%=8
+// x*=5
+// x/=5
+
+
+//recieve input
+
+#include <stdio.h>
+int main(){
+
+    char name[25];
+    int age;
+    
+    printf("\nwhat's your name");
+    scanf("%d", &name")
+    
+    printf("How old are you:");
+    scanf("%d", &age);
+    
+    printf("\nHello %s, how are you?", name);
+    printf("You are %d years old");
+    return 0;
+}    
+
+
+
+
+
+

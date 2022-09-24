@@ -88,7 +88,7 @@ print(msg)                                 //output is John [Smith] is a coder
 //string methods
 
 course = 'Python for Beginners'
-print (len(course))                 //output is 20 (number of covered spaces)
+print(len(course))                  //output is 20 (number of covered spaces)
 print(course.upper())               //output is PYTHON FOR BEGINNERS
 print(course.lower())               //output is python for beginners
 print(course)                       //output is Python for Beginners
@@ -108,3 +108,79 @@ course.replace()
 '....' in course
 
 //arithmetic operations
+
+print(10 * 3)
+print(10 / 3)
+print(10 // 3)      //output the number without decimals    
+print(10 % 3)       //output the remainder of the division
+print(10 ** 3)      
+
+//augmented assignment operators ---> write the same code in a shorter form
+
+x += (number)
+x /= (number)
+x //= (number)
+x %= (number)
+x *= (number)
+
+
+//operator procedence (order of operators)
+
+x = 10 + 3 * 2
+print(x)          //output is 16
+
+Order of operators:-
+
+0-parenthesis (brackets)
+1- Exponentiation ---> 2 ** 3
+2- Multiplication or division
+3- Addition or subtraction
+
+x = 10 + 3 * 2 ** 2
+print(x)              //outpute is 22
+
+
+//math functions
+
+x = 2.9
+print(round(x))      //output is 3
+
+x = 2.9
+print(abs(-2.9))     //output is 2.9 (always output the opposite)
+
+import math
+print(math.ceil(2.9))     //output is 3
+
+import math
+print(math.floor(2.9))     //output is 2
+
+Note: search for python module to learn about different functions
+
+
+//if statements
+
+is_hot = False
+is_cold = False
+if is_hot:
+    print("It's a hot day")
+    print("Drink plenty of water")
+elif is_cold:
+    print("It's a cold day")
+    print("Wear warm clothes")
+else:
+    print("It's a lovely day")                                                       
+print("Enjoy your day")                  //output It's a lovely day
+                                                  Enjoy your day
+ 
+price = 1000000
+has_good_credit = True
+if has_good_credit:
+    down_payment = 0.1 * price
+else:
+    down_payment = 0.2 * price
+print(f"Down payment: ${down_payment}")    //output is $100000.0
+
+
+//logical operators
+
+
